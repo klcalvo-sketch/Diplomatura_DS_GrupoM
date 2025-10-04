@@ -21,7 +21,8 @@ ________________________________________________________________________________
     - Optimización de hiperparámetros con GridSearchCV
 
 Notas: 
-- Utilizando incluso un subdataset balanceado con el 20% del dataset original, el modelo de LGBM tardo aproximadamente en correr 4hs y CatBoost se tilda cuando comienza con la optimización de hiperparámetros. LGBM no mejoró significativamente con la optimización de hiperparámetros por lo que en la siguiente prueba (Archivo Final) no se realizó optimización de hiperparámetros.
+Utilizando incluso un subdataset balanceado con el 20% del dataset original, el modelo de LGBM tardo aproximadamente en correr 4hs y CatBoost se tilda cuando comienza con la optimización de hiperparámetros. LGBM no mejoró significativamente con la optimización de hiperparámetros por lo que en la siguiente prueba (Archivo Final) no se realizó optimización de hiperparámetros.
+
 - Archivo Final Diplomatura_CDyAA_Proyecto Final_Grupo_M_Cuaderno(COLAB):
 LGBM y CatBoost aplicando:
 - Para el entrenamiento dataset procesado se utilizó 2010-2018 (60% del dataset), para validación Rolling window de 2019-2021 (30% del dataset) y para el testeo 2022 (10%).
